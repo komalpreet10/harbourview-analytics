@@ -108,5 +108,3 @@ Use synthetic questions only. Local privacy screening is implemented, but it may
 python scripts/check_setup.py --database
 python -m pytest -q
 ```
-
-Real MongoDB integration tests require a separate test server and are skipped by default. Other tests do not call OpenAI or MongoDB.
