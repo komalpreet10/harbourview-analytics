@@ -1,4 +1,4 @@
-# Harbourview House — Take-home write-up
+# Harbourview House — write-up
 
 **Key decisions.** I used the supplied synthetic data for a 2025 analysis notebook and a small Streamlit assistant. MongoDB matches Axon’s stack. The assistant supports admissions, referral conversion, completed-stay median, and occupancy. The LLM creates a JSON specification; Python validates its metric, dates, filters, grouping, and chart type before building a read-only aggregation. Displayed numbers come from MongoDB.
 
